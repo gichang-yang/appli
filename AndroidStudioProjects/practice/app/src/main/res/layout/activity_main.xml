@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.androidname.practice.MainActivity"
+    android:id="@+id/_">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="숭실대 SODA팀, 빅데이터 소셜마케팅 분석보고서 경진대회 대상 수상   한국경제신문에서 주최한 ‘빅데이터 소셜마케팅 분석보고서 경진대회’에서 숭실대 SODA팀(여상현, 곽정윤, 강솔비, 심은아, 이성민, 장만길 학생)이 대상(한국정보화진흥원장상)을 수상했다.   8월 5일(금) 열린 본선에서는 숭실대, 성균관대, 중앙대, 광운대 등 각 팀별로 선정한 주제를 소셜 빅데이터를 활용하여 분석·발표했다.   숭실대 SODA팀은 ‘빅이슈, 기부의 프레임을 바꾸다’를 주제로 발표했다. SODA팀은 빅이슈 잡지에 대한 사람들의 인식을 빅데이터를 활용하여 분석하고, 판매 활성화하기 위한 방안을 제시하여 좋은 평가를 받았다.   여상현 학생(경영학부 11)은 “첫 공모전 도전이라 많은 어려움과 시행착오를 겪었지만, 팀원 모두가 열심히 해준 덕분에 좋은 결과를 얻게 되어 기쁘다”고 소감을 밝혔다."
+        android:id="@+id/textView"
+        android:textSize="30dp" />
+    </ScrollView>
+
+</RelativeLayout>
